@@ -37,6 +37,24 @@ install ghostscript
 install redis
 install ttfautohint fontforge --with-python
 
+# Install PHP
+
+install php55
+# To have launchd start php55 at login
+ln -sfv /usr/local/opt/php55/*.plist ~/Library/LaunchAgents
+
+#Then to load php55 now
+
+launchctl load ~/Library/LaunchAgents/homebrew.mxcl.php55.plist
+
+install mysql
+
+# Install Composer (global)
+
+install homebrew/php/composer
+ln -sfv /usr/local/opt/mysql/*.plist ~/Library/LaunchAgents
+launchctl load ~/Library/LaunchAgents/homebrew.mxcl.mysql.plist
+
 
 install homebrew/versions/lua52
 
