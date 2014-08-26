@@ -43,6 +43,10 @@ You could also install native apps with [`brew cask`](https://github.com/phinze/
 brew bundle ~/Caskfile
 ```
 
+### Download [IE test VMs](http://www.modern.ie/en-us/virtualization-tools) for [VirtualBox](https://www.virtualbox.org/)
+
+These take a while to download, so maybe do it on a separate day as a background process.
+
 ## Thanks to…
 
 * [Mathias Bynens](https://mathiasbynens.be/)
