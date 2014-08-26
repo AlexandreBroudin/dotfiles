@@ -1,0 +1,30 @@
+# Install native apps
+# Usage: `brew bundle Caskfile`
+
+install caskroom/cask/brew-cask
+tap caskroom/versions
+
+cask install --appdir="/Applications" google-chrome 2> /dev/null
+cask install --appdir="/Applications" google-chrome-canary 2> /dev/null
+cask install --appdir="/Applications" google-drive 2> /dev/null
+
+cask install --appdir="/Applications" opera 2> /dev/null
+cask install --appdir="/Applications" opera-developer 2> /dev/null
+cask install --appdir="/Applications" opera-next 2> /dev/null
+
+cask install --appdir="/Applications" firefox 2> /dev/null
+cask install --appdir="/Applications" firefox-nightly 2> /dev/null
+
+cask install --appdir="/Applications" imagealpha 2> /dev/null
+cask install --appdir="/Applications" imageoptim 2> /dev/null
+
+cask install --appdir="/Applications" sublime-text3 2> /dev/null
+
+cask install --appdir="/Applications" the-unarchiver 2> /dev/null
+cask install --appdir="/Applications" virtualbox 2> /dev/null
+cask install --appdir="/Applications" sequel-pro 2> /dev/null
+cask install --appdir="/Applications" spectacle 2> /dev/null
+cask install --appdir="/Applications" cloud 2> /dev/null
+cask install --appdir="/Applications" xscope 2> /dev/null
+
+cask install sketch
