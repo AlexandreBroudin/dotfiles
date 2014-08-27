@@ -28,3 +28,5 @@ cask install --appdir="/Applications" cloud 2> /dev/null
 cask install --appdir="/Applications" xscope 2> /dev/null
 
 cask install --appdir="/Applications" sketch 2> /dev/null
+
+cask install --appdir="/Applications" xquartz 2> /dev/null

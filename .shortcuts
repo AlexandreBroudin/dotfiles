@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# Global shortcuts
+defaults write -g NSUserKeyEquivalents -dict-add "Swap window" "@\\U0040"
+
+### With Mavericks you must clear prefs cache
+killall cfprefsd
+
+### Restart Finder
+killall Finder

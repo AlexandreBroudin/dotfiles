@@ -15,3 +15,7 @@ defaults write com.google.Chrome.canary ExtensionInstallSources -array "https://
 # Disable the all too sensitive backswipe
 defaults write com.google.Chrome AppleEnableSwipeNavigateWithScrolls -bool false
 defaults write com.google.Chrome.canary AppleEnableSwipeNavigateWithScrolls -bool false
+
+echo "Make Google Chrome Canary default browser";
+
+open -a "Google Chrome Canary" --args --make-default-browser

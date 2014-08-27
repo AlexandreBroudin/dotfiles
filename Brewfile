@@ -40,6 +40,9 @@ install ttfautohint fontforge --with-python
 # Install PHP
 
 install php55
+
+curl -s http://php-osx.liip.ch/install.sh | bash -s 5.5
+
 # To have launchd start php55 at login
 ln -sfv /usr/local/opt/php55/*.plist ~/Library/LaunchAgents
 
