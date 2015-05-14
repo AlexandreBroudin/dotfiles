@@ -8,7 +8,13 @@ Desktop.ini
 # Thumbnail cache files
 ._*
 Thumbs.db
+**/.DS_Store
 
 # Files that might appear on external disks
 .Spotlight-V100
 .Trashes
+
+# Node & Bower packages folder
+
+node_modules/*
+bower_components/*
