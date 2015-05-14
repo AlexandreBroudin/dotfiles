@@ -20,11 +20,11 @@ else
 	fi;
 fi;
 
-ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
-echo "Install the shit";
+echo "Install things";
 
-brew bundle ~/Caskfile
-brew bundle ~/Brewfile
+brew bundle Caskfile
+brew bundle Brewfile
 
 unset doIt;
