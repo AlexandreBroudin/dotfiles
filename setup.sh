@@ -20,11 +20,18 @@ else
 	fi;
 fi;
 
+echo "Downloding & Installing Homebrew…";
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
-echo "Install things";
+echo "Make sure we’re using the latest Homebrew…";
+brew update
 
-brew bundle Caskfile
-brew bundle Brewfile
+echo "Upgrade any already-installed formulae…";
+brew upgrade --all
+
+echo "Install formulaes & casks…";
+brew bundle
+
+sudo ln -s /usr/local/bin/gsha256sum /usr/local/bin/sha256sum
 
 unset doIt;

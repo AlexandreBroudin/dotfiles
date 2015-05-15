@@ -38,3 +38,34 @@ brew 'woff2'
 brew 'git'
 brew 'node'
 brew 'tree'
+
+# Install native apps
+
+brew 'caskroom/cask/brew-cask'
+tap 'caskroom/versions'
+
+cask 'iterm2'
+
+cask 'google-chrome-canary'
+
+cask 'firefoxdeveloperedition'
+
+cask 'imagealpha'
+cask 'imageoptim'
+
+cask 'sublime-text3'
+cask 'atom'
+
+cask 'the-unarchiver'
+cask 'unrarx'
+cask 'virtualbox'
+cask 'sequel-pro'
+cask 'spectacle'
+cask 'cloud'
+cask 'xscope'
+cask 'flux'
+
+cask 'sketch'
+cask 'sketch-tool'
+
+cask 'xquartz'
