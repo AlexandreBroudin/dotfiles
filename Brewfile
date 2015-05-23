@@ -64,6 +64,7 @@ cask 'spectacle'
 cask 'cloud'
 cask 'xscope'
 cask 'flux'
+cask 'bleep'
 
 cask 'sketch'
 cask 'sketch-tool'
